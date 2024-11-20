@@ -147,6 +147,7 @@ footer {
 .found{
 	height:400px;
 	width:353px;
+	padding:10px;
 	 display: flex;
       margin-left: auto;
       margin-right: auto;
