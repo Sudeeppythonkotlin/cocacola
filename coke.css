@@ -1,0 +1,153 @@
+/* Import a professional font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Lobster&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
+
+/* Reset to default settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF; /* Set background to white */
+    color: #000000; /* Set default text color to black */
+    line-height: 1.6;
+}
+
+/* Header Styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #FFFFFF; /* White background for the header */
+    border-bottom: 2px solid #f4f4f4;
+}
+
+/* Logo Styling */
+.logo img {
+    height: 70px;
+    width: auto;
+}
+
+/* Navigation Styling */
+.nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    margin-left: 20px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #000000; /* Black text for links */
+    font-size: 16px;
+    font-weight: normal;
+    transition: color 0.3s ease;
+}
+
+.nav ul li a:hover {
+    color: #F40009; /* Coca-Cola brand red on hover */
+}
+
+/* H1 Styling */
+.log {
+    font-family: "Lobster", serif; /* Apply Playfair Display for a professional, serif look */
+    font-size: 3rem;
+    color: #000000; /* Coca-Cola brand red for standout headings */
+    margin-bottom: 20px;
+}
+
+/* H1 Styling */
+h1 {
+    font-family: "Raleway", serif; /* Apply Playfair Display for a professional, serif look */
+    font-size: 3rem;
+    color: #ffffff; 
+    margin-bottom: 20px;
+}
+
+/* Section Styling */
+section {
+    padding: 20px;
+    text-align: center;
+    color:white;
+    background-color:black;
+	font-family:"Poppins",serif;
+}
+
+/* About Us Section */
+#about {
+    background-color: #000000;
+    padding: 40px;	
+    text-align:justify;
+    font-family:"Poppins",serif;
+}
+
+/* Contact Us Section */
+#contact {
+    background-color: #000000;
+    padding: 40px;text-align:justify;
+    font-family:"Poppins",serif;
+    
+}
+
+/* Footer Styling */
+footer {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .nav ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+}
+
+.loka{
+	height:400px;
+	width:1263px;
+
+}
+.his{
+	height:500px;
+	width:1263px;
+}
+
+.found{
+	height:400px;
+	width:353px;
+	 display: flex;
+      margin-left: auto;
+      margin-right: auto;
+}
